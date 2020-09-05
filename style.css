@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Merienda+One&family=Quicksand&display=swap');
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Quicksand', sans-serif;
+  background-image: url("https://wallpaperboat.com/wp-content/uploads/2019/10/free-website-background-02-728x410.jpg");
+  background-color: #cccccc;  
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+.welcome-section h1{
+  font-family: 'Merienda One', cursive;
+  color: #db4237;
+  font-size: 50px;
+  text-align: right;
+  width: 95vw;
+  margin-top: 240px;
+  position: absolute;
+  padding-left: 0;
+}
+.welcome-section p{
+  color: black;
+  text-align: right;
+  width: 95vw;
+  margin-top: 330px;
+  position: absolute;
+  font-size: 4vw;
+}
+.nav{
+  width: 100%;
+  background: #0979e0;
+  position: fixed;
+  text-align: center;
+  top: 0;
+  left: 0;
+  z-index: 500;
+}
+.nav a{
+  display: inline-block;
+  padding:20px;
+  color: #fff;
+  text-decoration: none;
+  font-size: 5vw;
+}
+.nav a:hover{
+  background: #6cb0f0;
+  color: #fff;
+  transition-duration: 0.5s
+}
+.welcome-section{
+  width: 100vw;
+  height: 100vh;
+}
+.project-display{
+  background: #f7a7a1;
+  text-align: center;
+  width: 100vw;
+  height: 100vh;
+}
+.project-display h2{
+  padding-top: 140px;
+}
+@media screen and (min-width: 480px) {
+  body {
+    background-color: #9fc6d1;
+  }
+}
